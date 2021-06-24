@@ -1,0 +1,40 @@
+h1{
+    text-align: center;
+    font-size: 30px;
+    font-family:arial;
+    font-weight: bolder;
+}
+h2{
+    text-align: center;
+    font-size: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+}
+
+table {
+    tab-size: 90px;
+    size: 90px;
+    margin: auto;
+    font-size: 19px;
+   border-color: black;
+    
+    text-align:center;
+    font-weight: lighter;
+}
+.form-check{
+    align-content: flex-start;
+}
+
+body{
+    background: black;
+    color:white;
+}
+hr{
+    color:white;
+    background: white;
+}
+footer{
+    text-align: center;
+    font-size: 17px;
+    background-color: rgb(20, 19, 19);
+}
