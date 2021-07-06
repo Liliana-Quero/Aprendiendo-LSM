@@ -1,24 +1,39 @@
 h1{
     text-align: center;
-    font-size: 30px;
-    font-family:arial;
-    font-weight: bolder;
+    font-size: 34px;
+    
+    font-display: ;
+   
+        text-align: center;
+        color: rgb(255, 228, 219);
+        font-family: 'didot';
+        font-size: 30px;
+        letter-spacing: 8px;
+        
 }
 h2{
     text-align: center;
-    font-size: 20px;
+    font-size: 22px;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-weight: bolder;
+    font-weight:bold;
+    letter-spacing: 4px;
+}
+h3{
+    text-align: center;
+    font-size: 19px;
+    font-family:'arial';
+    font-weight: lighter;
+    
 }
 
 table {
     tab-size: 90px;
     size: 90px;
     margin: auto;
-    font-size: 19px;
+    font-size: 20px;
    border-color: black;
+   
     
-    text-align:center;
     font-weight: lighter;
 }
 .form-check{
@@ -38,3 +53,52 @@ footer{
     font-size: 17px;
     background-color: rgb(20, 19, 19);
 }
+#nombre_usuario {
+    font-size: 80%;
+    outline: none;
+    width: 200px;
+    height: 30px;
+    display: table-cell; 
+    vertical-align: middle;
+    border: 1px solid white;
+  }
+  #email{
+    font-size: 80%;
+    outline: none;
+    width: 200px;
+    height: 30px;
+    display: table-cell; 
+    vertical-align: middle;
+    border: 1px solid white;
+  }
+  #contrasena {
+    font-size: 80%;
+    outline: none;
+    width: 200px;
+    height: 30px;
+    display: table-cell; 
+    vertical-align: middle;
+    border: 1px solid white;
+  }
+  #Usuario{
+    font-size: 80%;
+    outline: none;
+    width: 200px;
+    height: 30px;
+    display: table-cell; 
+    vertical-align: middle;
+    border: 1px solid white;
+  }
+  img.alinearCentro{
+    vertical-align: middle;
+    /* Ojo vertical-align: text-middle no existe*/
+    
+}
+#imagenTexto{
+    text-align: center;
+    font-size: 20px;
+    font-family:'Lucida Sans';
+    font-weight: bolder;
+}
+}
+  
